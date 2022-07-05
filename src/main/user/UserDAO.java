@@ -5,13 +5,13 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-public class userDAO {
+public class UserDAO {
 
 	private Connection conn;
 	private PreparedStatement pstmt;
 	private ResultSet rs;
 	
-	public userDAO() {
+	public UserDAO() {
 		//실제로 mysql에 접속하게 해주는 부분
 		try {
 			String dbURL="jdbc:mysql://localhost:3306/BBS";
