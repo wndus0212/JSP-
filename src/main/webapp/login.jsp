@@ -50,7 +50,7 @@
                 <input type="text" class="form-control" placeholder="아이디" name="userID" maxlength="20">
                   </div>
                   <div class="form-group">
-                <input type="password" class="form-control" placeholder="비밀번호" name="userPassID" maxlength="20">
+                <input type="password" class="form-control" placeholder="비밀번호" name="userPassword" maxlength="20">
                   </div>
                    <input type="submit" class="btn btn-primary form-control" value="로그인">
                   </form>
@@ -59,5 +59,7 @@
    <div class="col-Lg-4"></div>
      <script src="https://code.jquery.com-3.1.1.min.js"></script>
      <script src="js/bootstrap.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
 </body>
 </html>

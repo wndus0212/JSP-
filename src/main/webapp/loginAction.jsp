@@ -21,9 +21,7 @@ request.setCharacterEncoding("UTF-8");
 	int result = userDAO.login(user.getUserID(), user.getUserPassword());
 	%>
 	<script type="text/javascript">
-		var result =
-	<%=result%>
-		;
+		var result = <%=result%>;
 		if (result == 1) {
 			location.href = 'main.jsp';
 		} else if (result == 0) {
@@ -39,4 +37,4 @@ request.setCharacterEncoding("UTF-8");
 	</script>
 </body>
 </html>
-출처: https://alisyabob.tistory.com/218 [it 공부 끄적이기:티스토리]
+
